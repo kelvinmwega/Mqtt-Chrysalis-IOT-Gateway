@@ -1,0 +1,17 @@
+ 
+{
+   "mqttserver": {
+       "server": "mqtt://192.168.1.108:1883",
+       "subtopic": "clients/+",
+       "pubtopic": "clients/cmd"
+   },
+   "iotamam": {
+       "mode": "",
+       "server": "https://chrysalis-nodes.iota.org",
+       "depth": 3,
+       "minWeightMagnitude": 9,
+       "tag": "",
+       "seed": "",
+       "security": 2
+   }
+}

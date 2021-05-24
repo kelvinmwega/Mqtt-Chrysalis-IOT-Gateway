@@ -1,0 +1,32 @@
+{
+  "name": "mqtt-chrysalis",
+  "version": "1.0.0",
+  "description": "Publish and Read IOT Data - IOTA Chrysalis",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.production.js",
+    "start": "node dist/server",
+    "start:env": "node --require dotenv/config dist/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IOT"
+  ],
+  "author": "kelvin.mwega@iota.org",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/webpack-env": "^1.15.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@iota/iota.js": "^1.5.3",
+    "mqtt": "^4.2.6",
+    "winston": "^3.2.1"
+  }
+}
