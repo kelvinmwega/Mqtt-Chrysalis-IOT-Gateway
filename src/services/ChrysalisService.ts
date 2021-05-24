@@ -1,4 +1,4 @@
-import { Converter, deserializeMessage, IMessage, INDEXATION_PAYLOAD_TYPE, ITransactionPayload, logInfo, logMessage, logMessageMetadata, logTips, MAX_NUMBER_PARENTS, ReadStream, SingleNodeClient } from "@iota/iota.js";
+import { Converter, IMessage, INDEXATION_PAYLOAD_TYPE, MAX_NUMBER_PARENTS, SingleNodeClient } from "@iota/iota.js";
 import { ILedgerConfig } from "../models/ILedgerConfig";
 import logger from "../utils/logger";
 
