@@ -3,5 +3,5 @@ import { IMqttConfig } from "./IMqttConfig";
 
 export interface IConfig {
     mqttConfig: IMqttConfig;
-    ledgerConfig: ILedgerConfig;
+    chrysalis: ILedgerConfig;
 }

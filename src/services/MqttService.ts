@@ -14,7 +14,7 @@ export class MqttService {
 
     constructor(config: IConfig) {
         this._mqttconfig = config["mqttserver"];
-        this._dataHandlerService = new DataHandlerService(config);
+        this._dataHandlerService = new DataHandlerService(config.chrysalis);
     }
 
     public async connect(): Promise<void> {
